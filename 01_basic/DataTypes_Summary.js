@@ -39,3 +39,22 @@ const myFunction=function(){
 console.log(typeof myFunction);
 console.log(typeof heros);
 console.log(typeof veryBigNum);
+
+//stack(Primitive), Heap (Non-premitive)
+let myYoutubename="Puneet Uttam"
+let anothername=myYoutubename;
+anothername="chaiandcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email:"puneet@google.com",
+    upi:"puneet@ybl"
+}
+
+let userTwo=userOne;
+userTwo.email="uttam@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
