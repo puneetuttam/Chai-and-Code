@@ -12,3 +12,4 @@ let myTampStamp=Date.now();
 console.log(myCreatedDate.getTime());
 console.log(myDate.getMonth()+1);
 console.log(myDate.getFullYear());
+  
