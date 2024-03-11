@@ -36,4 +36,34 @@ function loginUserMessage(Username = "default"){
     return `${Username}, just logged In`
 }
 
-console.log(loginUserMessage("Puneet"));
+//console.log(loginUserMessage("Puneet"));
+
+
+function calculateCartPrice(...num1){ //rest operator or spread opertor. Depending upon usecase we call it rest and spread.
+    return num1;
+}
+//console.log(calculateCartPrice(22,34,234,2));
+
+const user={
+    username:"Puneet",
+    price:199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+//handleObject(user);
+//you can also pass object itself like thisk
+handleObject({  
+    username:"Uttam",
+    price:233
+})
+
+
+const myNewArry=[200,23,234,34]
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+console.log(returnSecondValue(myNewArry));
+console.log(returnSecondValue([32,234,234,23,34,2344]));
