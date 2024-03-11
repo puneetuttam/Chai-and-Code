@@ -48,3 +48,29 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+const course={
+    courseName:"JavaScript",
+    price:"999",
+    courseInstructor:"Hitesh"
+}
+
+//course.courseInstructor to print instructor
+
+const{courseInstructor:instructor} =course //this is called object de structure
+console.log(instructor);
+
+
+//Json
+// {
+//     "name": "Hitesh",
+//     "courseName":"JavaScript",
+//     "Price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
