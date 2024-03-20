@@ -46,5 +46,3 @@ console.log(addone(4));
 const addTwo=function(num){
     return num+2;
 }
-
-
